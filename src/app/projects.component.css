@@ -1,0 +1,20 @@
+.container{
+  width: 100%;
+  display: grid;
+  height:90%;
+  background-color: #373b44;
+}
+.row{
+  align-self: center;
+  padding: 5px;
+}
+.card{
+  background-color: #F5F5F5;
+  border-radius: 0px;
+  padding:5px;
+}
+.button-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+img{
+}

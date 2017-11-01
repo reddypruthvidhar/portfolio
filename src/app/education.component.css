@@ -1,7 +1,7 @@
 .container{
   width: 100%;
   display: grid;
-  height:90vh;
+  height:100vh;
   background-color: #373b44;
 }
 .row{

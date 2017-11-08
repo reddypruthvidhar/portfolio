@@ -1,7 +1,7 @@
 .container{
   width: 100%;
   display: grid;
-  height:90%;
+  height:100%;
   background-color: #373b44;
 }
 .row{
@@ -16,6 +16,8 @@
 .button-1:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
+
 .card-img-top{
-  max-height: 300px;
+  height:215px;
+  width:215px;
 }

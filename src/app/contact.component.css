@@ -1,0 +1,29 @@
+.container{
+  background-color: #373b44;
+  height: 100%;
+  width:100%;
+  text-align: center;
+  color: #b1b1b1;
+}
+
+.helper{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+h1{
+  font-family:system-ui;
+  font-weight: 100;
+}
+h3{
+  font-family: system-ui;
+  font-weight: 100;
+}
+
+.footer{
+  position: fixed;
+  height: 60px;
+  bottom: 0;
+  width: 100%;
+}

@@ -6,14 +6,7 @@ h1{
 h3{
   color: #fff;
 }
-img{
-  border-radius: 50%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
-.outer{
-  height:100vh;
-}
 
 body {
   margin: 0;
@@ -28,8 +21,7 @@ section {
   display: table;
   margin: 0;
   max-width: none;
-  background-color: #373B44;
-  height:65%;
+  background-color: #2d2d2d;
 
   &:nth-of-type(2n) {
     background-color: #FE4B74;
@@ -38,9 +30,27 @@ section {
 
 .inner{
   height:35%;
+  background-color: white;
+}
+.intro{
+  height:65%;
 }
 
 .content {
   display: table-cell;
   vertical-align: middle;
+}
+.helper{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+img{
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  vertical-align: middle;
+}
+
+.outer{
+  height:100%;
 }
